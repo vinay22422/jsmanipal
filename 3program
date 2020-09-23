@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2> Use JavaScript to hide or show HTMl Elements in the webpage </h2>
+<h3 id="test">JavaScript can hide/show HTML Elements </h3>
+<button type="button" onClick="document.getElementById('test').style.display='none'">Hide</button>
+<button type="button" onClick="document.getElementById('test').style.display='block'">Show</button>
+</body>
+</html>
