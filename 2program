@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2> JavaScript can change HTML attrbute values. </h2>
+<h3>On Button click change the src value of the  image tag</h3>
+
+<button onclick="document.getElementById('myImage').src='https://cdn4.vectorstock.com/i/1000x1000/48/08/realistic-glowing-light-bulb-on-dark-background-vector-3374808.jpg'">
+Turn on the bulb</button>
+
+<img id="myImage" src="https://secure.i.telegraph.co.uk/multimedia/archive/03055/philips-clear-led-_3055499b.jpg" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='https://secure.i.telegraph.co.uk/multimedia/archive/03055/philips-clear-led-_3055499b.jpg'">
+Turn off the bulb</button>
+
+
+</body>
+</html>
